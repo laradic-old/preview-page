@@ -1,8 +1,7 @@
 {
     "name": "laradic/preview-page",
-    "type": "platform-extension",
+    "license": "MIT",
     "description": "laradic/preview-page is a laravel package",
-    "repositories": [{"type": "composer", "url": "http://packages.sebwite.nl"}],
     "authors": [
         {
             "name": "Robin Radic",
@@ -14,7 +13,7 @@
         "php": ">=5.5.9",
         "laradic/support": "1.0.*"
     },
-    "require": {
+    "require-dev": {
         "laradic/testing": "1.0.*"
     },
     "autoload": {

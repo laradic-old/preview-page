@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project title="API Documentation" version="v2.8.5">
+  <partials/>
+  <file path="Factory.php" generated-path="Factory.html" hash="b446f1be46c2c6321d9ee5c1dcb774e7" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+    </parse_markers>
+    <source>eJx9VEuP2jAQvudX+ICUgIBUfR2gpVvobrdVV11tuTVVZJxhcZXYqR9Lu4j/3nFIIJCAL3HG881883z3IV/lnqAZ6JwyIN+oogln0b2CJw7re/oIY8+zGsiXNLUZF9RANJPCKMqMjm6kFQk1XIroY56nnBV3RLCUak1uUEmqf97G8wieXEkDzEBCOjTPxw3hQkqj19Sw1YyyFcx5BuQ9efuC9MjL15fUH0BLq5jT9kOa8/DV8LeWwr+EuZXaoL6waYpqhV7Y6xVf9FcyJ0wKbZR1P8PyrVK5yjFXWRFKKQp33uwCE0GWVjCXDBLHeyNBLUkFsFsgNjs8no5ZcT2Y4AtS2yXJibdeq+VDMEHDkIvf1QmEi/Jg9yfxmUuuT34NJgoyyBaggix5E2iDvNhoVJSu268wLUXpHygE3ZpTdxQYq0QFTuRapJIm072Rr8gr6I73mG3tXmId9TgBJhMI6nH0CSYRuscp2Zd2T+mcz5MM8SUJilBj+Mu10YE/tc/PUTRLOfrCr1Wp3z0Nr8NQXNywdWBNogJUYhykHlsBUPDHArbaEeAOtMbRih52j0GrdDS6u57ffv8Uf76e948bG39XxuR6FIaH+gyZzPyme51j+8EZ97vHcTPGwUSDSIKKfv9g6dTDSadVaoPJI5hSflRwAinS2VwysuQpxAh3k+NEWJz2cOs5qfs4bam6/aP+qY38VanLhbk4z8hr2pyJRn8dD0LLFJ3j8QMMMSsgbdvwiaYW2vcQ0m7doKfaJa9qNV+KVLdH2ublzCJr3+htBhpboLBQ5Wjr/QdUOwZY</source>
+  </file>
+  <file path="RouteServiceProvider.php" generated-path="RouteServiceProvider.html" hash="8c04928f67ffde7d361c8730b05496b8" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <namespace-alias name="ServiceProvider">\Illuminate\Foundation\Support\Providers\RouteServiceProvider</namespace-alias>
+    <namespace-alias name="Router">\Illuminate\Routing\Router</namespace-alias>
+    <class final="false" abstract="false" namespace="Laradic\PreviewPage" line="8" package="Default">
+      <extends>\Illuminate\Foundation\Support\Providers\RouteServiceProvider</extends>
+      <name>RouteServiceProvider</name>
+      <full_name>\Laradic\PreviewPage\RouteServiceProvider</full_name>
+      <docblock line="8">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="8" description="Default"/>
+      </docblock>
+      <property static="false" visibility="protected" namespace="Laradic\PreviewPage" line="17" package="Default">
+        <name>$namespace</name>
+        <full_name>\Laradic\PreviewPage\RouteServiceProvider::namespace</full_name>
+        <default>'Laradic\PreviewPage'</default>
+        <docblock line="17">
+          <description>This namespace is applied to the controller routes in your routes file.</description>
+          <long-description>In addition, it is set as the URL generator's root namespace.</long-description>
+          <tag name="var" line="17" description="" type="string" variable="">
+            <type>string</type>
+          </tag>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Laradic\PreviewPage" line="26" package="Default">
+        <name>boot</name>
+        <full_name>\Laradic\PreviewPage\RouteServiceProvider::boot()</full_name>
+        <docblock line="26">
+          <description>Define your route model bindings, pattern filters, etc.</description>
+          <long-description></long-description>
+          <tag name="param" line="26" description="" type="\Illuminate\Routing\Router" variable="$router">
+            <type>\Illuminate\Routing\Router</type>
+          </tag>
+          <tag name="return" line="26" description="" type="void">
+            <type>void</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$router</name>
+          <default></default>
+          <type>\Illuminate\Routing\Router</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Laradic\PreviewPage" line="40" package="Default">
+        <name>map</name>
+        <full_name>\Laradic\PreviewPage\RouteServiceProvider::map()</full_name>
+        <docblock line="40">
+          <description>Define the routes for the application.</description>
+          <long-description></long-description>
+          <tag name="param" line="40" description="" type="\Illuminate\Routing\Router" variable="$router">
+            <type>\Illuminate\Routing\Router</type>
+          </tag>
+          <tag name="return" line="40" description="" type="void">
+            <type>void</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$router</name>
+          <default></default>
+          <type>\Illuminate\Routing\Router</type>
+        </argument>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="8" code="PPC:ERR-50005">No summary for class \Laradic\PreviewPage\RouteServiceProvider</error>
+    </parse_markers>
+    <source>eJy9kj1v2zAQhnf9ihsM0DZke7dqt0NRIECGIGmnOANNnWUCEkmQJydF4P/eo2RblvJRoEO58PMevu/dffnq9i5JjKwwOKkQbqWXuVabO48Hjc93ssAsSeqAcFOWdaWNJNz8sLXJJWlrNg+1c9YTv7cHnaMPm3tbEz6gP2iF51OQAQZH2RAa47Qp2ni+TlQpQ4B3cfhCaPI3zOQ1AR6L6bSZYQo/9zpA54430rlSYw5kgfYIyhrytiwZ6uNPAbSB37a+bHe6xPkJd6beGJB5rmMCUtAUsQEpmozIX/e3UKBBL8l6ERhkqdMwZH07SA+BPFs/HS2a2XlLqIiVjjr9KxDvFEhwsga+v+NOG7wyApXNsYStNjn/FFJwkjjNJvrjmQ+Q1Bttjj+rADYflglGDd0PAz1SzfCD1XnfVb0ttYJdbVTMHmw5N+M+atI8bCvZuFoklzXrQUPLZRN2fp8118ePchBLcq6l9c226QHVNPD/t1xJ9xfHI+dZ+gtXe0Tcv7M1630Ewa2604WAJ167tvozx+Wft+7mbRTfZx2JW3LVf71ciqv7VsBsXfDCjZWtuM1oLE6oFIQMYpJ24ofKr1T3eciUBQMeIwFWaxDceRiRHWsYHcc5iyx3PNDdAiZZL+b4NDjoS3iNnRKeJan9saeG26DCnppR9/SfhKVwSV9HEpPP9B4vvXtM/gCN+K0w</source>
+  </file>
+  <file path="PreviewPageServiceProvider.php" generated-path="PreviewPageServiceProvider.html" hash="80bf83b4a339043067e57ddd6cdf1d44" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <namespace-alias name="ServiceProvider">\Laradic\Support\ServiceProvider</namespace-alias>
+    <class final="false" abstract="false" namespace="Laradic\PreviewPage" line="14" package="Default">
+      <extends>\Laradic\Support\ServiceProvider</extends>
+      <name>PreviewPageServiceProvider</name>
+      <full_name>\Laradic\PreviewPage\PreviewPageServiceProvider</full_name>
+      <docblock line="14">
+        <description>The main service provider</description>
+        <long-description></long-description>
+        <tag name="author" line="14" description="Robin Radic"/>
+        <tag name="copyright" line="14" description="Copyright (c) 2015, Codex Project"/>
+        <tag name="license" line="14" description="MIT" link="http://mit-license.org"/>
+        <tag name="package" line="14" description="Default"/>
+      </docblock>
+      <property static="false" visibility="protected" namespace="Laradic\PreviewPage" line="16" package="Default">
+        <name>$dir</name>
+        <full_name>\Laradic\PreviewPage\PreviewPageServiceProvider::dir</full_name>
+        <default>__DIR__</default>
+        <docblock line="16">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="protected" namespace="Laradic\PreviewPage" line="18" package="Default">
+        <name>$configFiles</name>
+        <full_name>\Laradic\PreviewPage\PreviewPageServiceProvider::configFiles</full_name>
+        <default>array('preview-page')</default>
+        <docblock line="18">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="protected" namespace="Laradic\PreviewPage" line="20" package="Default">
+        <name>$viewDirs</name>
+        <full_name>\Laradic\PreviewPage\PreviewPageServiceProvider::viewDirs</full_name>
+        <default>array('views' =&gt; 'preview-page')</default>
+        <docblock line="20">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="protected" namespace="Laradic\PreviewPage" line="22" package="Default">
+        <name>$singletons</name>
+        <full_name>\Laradic\PreviewPage\PreviewPageServiceProvider::singletons</full_name>
+        <default>array('preview-page' =&gt; \Laradic\PreviewPage\Factory::class)</default>
+        <docblock line="22">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Laradic\PreviewPage" line="26" package="Default">
+        <name>register</name>
+        <full_name>\Laradic\PreviewPage\PreviewPageServiceProvider::register()</full_name>
+        <docblock line="26">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="26" code="PPC:ERR-50008">No summary for method register()</error>
+      <error line="16" code="PPC:ERR-50007">No summary for property $dir</error>
+      <error line="18" code="PPC:ERR-50007">No summary for property $configFiles</error>
+      <error line="20" code="PPC:ERR-50007">No summary for property $viewDirs</error>
+      <error line="22" code="PPC:ERR-50007">No summary for property $singletons</error>
+    </parse_markers>
+    <source>eJyNUUtP4zAQvvtXzAGpD9F2QeKShe5Ki5CQFqkq3ABVrjNNvEptazwpINT/zsQJLcpe8M3+XjOfL3+FMijl9BZj0AbhryadW/O0INxZfFnoAn8qVccjcl+H4Imf7pF21uCC/M7mSMKajccKxvBQImy1dRBbBoSOImCD/9Y1l56gO0u/Fu6y8U6o8eGNbFFyQv8cbkMzgvMfZxen8pbjK0jwPzScNJXEOJmxPSVzyGazreVJB0w9FXB3+yDkmTKVjhG+LNjbBPCV0eUReu/qXTXusg1LLuZwkluCK1itrm+Xq5UU0IONdxtb3NgKo9AeYRDazEmQ0AE8/69o0GtLHb25xQFczb+hjNYVFbJ3Sas+y+0JxepGG/b0lmWphtPEPPjVaykMNrUzbL0DwsJGRhqOEvx+sD3RIUhO0ISOs+zI64yaYzcwbHiySFuEzN3rYEq+ZoxTdHpdYS6E0ZeQFMSljZO52Ezmh5Rlo+p9TrePDPAp3R9HIeSaXJq6xfdqrz4AwJjrNg==</source>
+  </file>
+  <package name="Default" full_name="Default"/>
+  <package name="global" full_name="global"/>
+  <namespace name="Laradic" full_name="Laradic">
+    <namespace name="PreviewPage" full_name="Laradic\PreviewPage"/>
+  </namespace>
+  <deprecated count="0"/>
+</project>

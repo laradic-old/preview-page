@@ -5,42 +5,31 @@ namespace Laradic\PreviewPage;
 use Laradic\Support\ServiceProvider;
 
 /**
-* The main service provider
-*
-* @author        Robin Radic
-* @copyright  Copyright (c) 2015, Codex Project
-* @license      http://mit-license.org MIT
-*/
+ * The main service provider
+ *
+ * @author        Robin Radic
+ * @copyright     Copyright (c) 2015, Codex Project
+ * @license       http://mit-license.org MIT
+ */
 class PreviewPageServiceProvider extends ServiceProvider
 {
     protected $dir = __DIR__;
 
-    protected $configFiles = [ 'laradic.preview-page' ];
+    protected $configFiles = [ 'preview-page' ];
 
-    protected $commands = [
-        // Commands\SomeCommand::class
-    ];
-
-    protected $bindings = [
-
-    ];
+    protected $viewDirs = [ 'views' => 'preview-page' ];
 
     protected $singletons = [
-
+        'preview-page' => Factory::class,
     ];
 
-    protected $aliases = [
-
-    ];
-
-    public function boot(){
-        $app = parent::boot();
-
-        return $app;
-    }
-
-    public function register(){
+    public function register()
+    {
         $app = parent::register();
+
+        if ($app[ 'config' ][ 'preview-page.routes.enabled' ]) {
+            $this->app->register(RouteServiceProvider::class);
+        }
 
         return $app;
     }
